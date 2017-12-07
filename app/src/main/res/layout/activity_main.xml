@@ -6,8 +6,8 @@
     android:orientation="vertical"
     tools:context="com.omrobbie.githubrxjava.MainActivity">
 
-    <ListView
-        android:id="@+id/lv_repos"
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_repos"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
