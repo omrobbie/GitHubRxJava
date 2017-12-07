@@ -42,12 +42,12 @@ public class GitHubRepoAdapter extends RecyclerView.Adapter<GitHubRepoAdapter.Vi
 
     @Override
     public void onBindViewHolder(ViewHolder holder, int position) {
-
+        holder.bind(list.get(position));
     }
 
     @Override
     public int getItemCount() {
-        return 0;
+        return list.size();
     }
 
     public class ViewHolder extends RecyclerView.ViewHolder {

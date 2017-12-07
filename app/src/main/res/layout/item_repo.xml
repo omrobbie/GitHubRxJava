@@ -41,7 +41,7 @@
         android:layout_alignParentRight="true"
         android:layout_below="@id/tv_repo_desc"
         android:text="@string/label_stars"
-        android:textColor="?attr/colorPrimary"
+        android:textColor="?attr/colorAccent"
         android:textSize="14sp" />
 
 </RelativeLayout>
