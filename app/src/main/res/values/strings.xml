@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">GitHubRxJava</string>
+
+    <string name="hint_search_name">Cari berdasarkan nama..</string>
+
+    <string name="label_search">Cari</string>
+
+    <string name="label_lang">Bahasa :</string>
+    <string name="label_stars">Bintang :</string>
 </resources>
